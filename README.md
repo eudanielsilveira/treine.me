@@ -34,4 +34,13 @@ body {
 No `body`, demos um reset na propriedade `margin` dos navegadores definindo o valor inicial como `0`.
 Na `class="page"` definimos a largura da página como `width: 1000px;` colocamos uma borda usando a propriedade `border: 1px solid red;` que irá definir a `largura|traçado|cor` da borda.  
 
-**Continua...**
+## Conceito de FlexBox
+Com Flexbox, podemos alinhar nosso conteúdo de forma rápida e fácil.
+Conforme abaixo, usamos uma `<div>` como exemplo e definimos dois atributos na nossa tag de bloco.
+```css
+div {
+  display: flex;
+  justfify-content: center;
+}
+```
+Com `display: flex;` definimos um contexto dentro do elemento de bloco, e nos permite usar mais atributos para alinhamento, como `justify-content` que usamos no exemplo em cima onde alinhamos os elementos filhos ao centro com o valor de atributo `center`.

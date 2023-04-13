@@ -3,7 +3,21 @@ body {
 }
 .page {
   width: 1000px;
-  border: 1px solid red;
 
   margin: 65px auto 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 55px;
+}
+
+ul {
+  display: flex;
+  gap: 48px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
