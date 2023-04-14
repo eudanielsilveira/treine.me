@@ -1,5 +1,8 @@
 ![Wallpaper do projeto Treine.me](https://i.imgur.com/ErK2PJ0.jpg)
 # Projeto 02: [Treine.me](https://danielsilveira-dev.github.io/treine.me/)
+
+## Links
+[A11y](https://www.a11yproject.com/) | [w3c](https://www.w3c.br/)
 ## Tecnologias Estudadas
 ### HTML
 Neste projeto, utilizamos tags semânticas!  

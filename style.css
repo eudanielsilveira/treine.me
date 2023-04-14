@@ -1,5 +1,7 @@
 body {
   margin: 0;
+
+  font-family: 'Open Sans', sans-serif;
 }
 .page {
   width: 1000px;
@@ -7,11 +9,12 @@ body {
   margin: 65px auto 0;
 }
 
-header {
+nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 55px;
+
 }
 
 ul {
@@ -20,4 +23,22 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+ul li a {
+  text-decoration: none;
+  color: #1F1534;
+}
+/* Pseudo classes */
+ul li a:hover {
+  font-weight: bold;
+}
+
+h1, ul {
+  font-family: 'Mulish', sans-serif;
+}
+
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: 400;
 }
