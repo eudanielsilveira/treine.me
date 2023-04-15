@@ -28,7 +28,7 @@ ul li a {
   text-decoration: none;
   color: #1F1534;
 }
-/* Pseudo classes */
+/* Pseudo class */
 ul li a:hover {
   font-weight: bold;
 }
@@ -40,5 +40,32 @@ h1, ul {
 h1 {
   font-size: 49px;
   line-height: 56px;
-  font-weight: 400;
+  color: #1F1534;
+
+  font-weight: normal;
+  width: 490px;
+}
+
+h1 span {
+  color: #89c5cc;
+  font-weight: bold;
+}
+
+p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7d7987;
+}
+
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+}
+
+footer {
+  font-size: 14px;
+  line-height: 28px;
+}
+footer a {
+  font-weight: bold;
 }
