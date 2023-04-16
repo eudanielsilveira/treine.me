@@ -2,7 +2,9 @@
 # Projeto 02: [Treine.me](https://danielsilveira-dev.github.io/treine.me/)
 
 ## Links
-[A11y](https://www.a11yproject.com/) | [w3c](https://www.w3c.br/)
+[A11y](https://www.a11yproject.com/) | [w3c](https://www.w3c.br/)  
+
+<a href="#fundoGradiente">Fundo Gradiente</a> | <a href="#conceitoFlexBox">Conceito de Flexbox</a>
 ## Tecnologias Estudadas
 ### HTML
 Neste projeto, utilizamos tags semânticas!  
@@ -37,7 +39,7 @@ body {
 No `body`, demos um reset na propriedade `margin` dos navegadores definindo o valor inicial como `0`.
 Na `class="page"` definimos a largura da página como `width: 1000px;` colocamos uma borda usando a propriedade `border: 1px solid red;` que irá definir a `largura|traçado|cor` da borda.  
 
-## Conceito de FlexBox
+<h2 id="conceitoFlexBox">Conceito de FlexBox</h2>
 Com Flexbox, podemos alinhar nosso conteúdo de forma rápida e fácil.
 Conforme abaixo, usamos uma `<div>` como exemplo e definimos dois atributos na nossa tag de bloco.
 ```css
@@ -47,3 +49,23 @@ div {
 }
 ```
 Com `display: flex;` definimos um contexto dentro do elemento de bloco, e nos permite usar mais atributos para alinhamento, como `justify-content` que usamos no exemplo em cima onde alinhamos os elementos filhos ao centro com o valor de atributo `center`.
+
+<h2 id="fundoGradiente">Fundo Gradiente</h2>
+
+```css
+elemento {
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+}
+```
+Conforme acima, o valor `linear-gradient(valor1, valor2, valor3)` é uma função que possui três valores.  
+
+`valor1` - é a orientação da posição do gradiente, ou, como será a rotação do background, ex: 0 graus, 90 graus, 180 graus, 270 graus ou 360, qual a **rotação de início** desse gradiente.
+O valor é declarado como `180deg`.
+```css
+elemento {
+  background: linear-gradient(180deg, , );
+}
+```
+`valor2` - é a primeira cor, no caso usamos o rgba para definir a cor.
+`valor3` - 
+
