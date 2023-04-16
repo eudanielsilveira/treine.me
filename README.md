@@ -60,12 +60,16 @@ elemento {
 Conforme acima, o valor `linear-gradient(valor1, valor2, valor3)` é uma função que possui três valores.  
 
 `valor1` - é a orientação da posição do gradiente, ou, como será a rotação do background, ex: 0 graus, 90 graus, 180 graus, 270 graus ou 360, qual a **rotação de início** desse gradiente.
-O valor é declarado como `180deg`.
+O valor foi declarado como `180deg`.
 ```css
 elemento {
   background: linear-gradient(180deg, , );
 }
 ```
-`valor2` - é a primeira cor, no caso usamos o rgba para definir a cor.
-`valor3` - 
+`valor2` e `valor3` - São as cores, no caso, usamos o rgba para definir a cor.
+
+No caso,rgba significa `red`, `green`, `blue`, `alpha`.
+
+
+
 
