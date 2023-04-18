@@ -4,11 +4,14 @@ body {
   font-family: 'Open Sans', sans-serif;
 
   background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
 }
 .page {
   width: 1000px;
 
-  margin: 65px auto 0;
+  margin:0 auto;
+  padding: 65px;
 }
 
 nav {
@@ -26,13 +29,17 @@ ul {
   margin: 0;
   padding: 0;
 }
-ul li a {
+a {
   text-decoration: none;
   color: #1F1534;
+}
+ul li a {
+  opacity: 0.5;
 }
 /* Pseudo class */
 ul li a:hover {
   font-weight: bold;
+  opacity: 0.5;
 }
 
 h1, ul {
@@ -97,4 +104,10 @@ footer {
 }
 footer a {
   font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
 }
